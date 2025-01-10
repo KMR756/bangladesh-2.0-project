@@ -270,3 +270,32 @@ nav {
   color: #ffffff;
   border: none;
 }
+
+/* dr yunus msg style */
+.dr-yunus-msg {
+  margin-top: 32px;
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding: 30px 24px;
+  display: flex;
+}
+.dr-yunus-msg-description {
+  font-size: 16;
+  color: rgba(14, 14, 14, 80%);
+  position: relative;
+  margin-top: 18px;
+}
+.msg-img {
+  position: absolute;
+}
+
+.author-name {
+  font-size: 20px;
+  color: rgba(14, 14, 14, 80%);
+  margin-top: 12px;
+}
+.author-post {
+  font-size: 16px;
+  color: rgba(14, 14, 14, 60%);
+  margin-top: 4px;
+}
