@@ -168,3 +168,32 @@ nav {
   color: #ffffff;
   margin-top: 24px;
 }
+
+/* pillars design */
+.pillar-title {
+  color: #0e0e0e;
+  font-size: 40px;
+  margin-top: 80px;
+}
+
+.pillar-items {
+  display: flex;
+  justify-content: space-around;
+  gap: 25px;
+  margin-top: 32px;
+}
+.pillar-card {
+  background-color: #ffffff;
+  padding: 25px;
+  border-radius: 16px;
+}
+
+.pillar-card-title {
+  margin-top: 15px;
+  font-size: 20px;
+}
+.pillar-card-description {
+  margin-top: 12px;
+  font-size: 16px;
+  color: rgba(14, 14, 14, 70%);
+}
