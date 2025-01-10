@@ -197,3 +197,76 @@ nav {
   font-size: 16px;
   color: rgba(14, 14, 14, 70%);
 }
+
+/* vision of feature part design */
+.vision-title {
+  color: #0e0e0e;
+  font-size: 40px;
+  margin-top: 80px;
+}
+
+.vision-description {
+  font-size: 16px;
+  color: rgba(14, 14, 14, 70%);
+  margin-top: 32px;
+}
+.vision-items {
+  display: flex;
+  justify-content: space-around;
+  gap: 24px;
+  margin-top: 32px;
+}
+
+.vision-item-1,
+.vision-item-2,
+.vision-item-3 {
+  padding: 32px;
+  border-radius: 16px;
+}
+
+.vision-item-1 {
+  background-color: rgba(84, 144, 245, 20%);
+}
+
+.vision-item-2 {
+  background-color: #c6e4d6;
+}
+
+.vision-item-3 {
+  background-color: #f7ebcf;
+}
+
+.vision-item-title {
+  color: #0e0e0e;
+  font-size: 20px;
+  margin-top: 25px;
+}
+
+.vision-item-description {
+  color: rgba(14, 14, 14, 70%);
+  font-size: 16px;
+  margin-top: 12px;
+}
+.vision-item-button-1,
+.vision-item-button-2,
+.vision-item-button-3 {
+  margin-top: 24px;
+  padding: 11px 20px;
+  border-radius: 8px;
+}
+
+.vision-item-button-1 {
+  background-color: #5490f5;
+  color: #ffffff;
+  border: none;
+}
+.vision-item-button-2 {
+  background-color: #09a15c;
+  color: #ffffff;
+  border: none;
+}
+.vision-item-button-3 {
+  background-color: #ffc239;
+  color: #ffffff;
+  border: none;
+}
