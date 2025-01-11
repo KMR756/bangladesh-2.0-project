@@ -141,7 +141,7 @@ nav {
 .nav-button:hover {
   color: #ffffff;
   background-color: #006a50;
-  transition: background-color 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 /* banner design */
@@ -177,7 +177,7 @@ nav {
 .banner-button:hover {
   background-color: #ffffff;
   color: #006a50;
-  transition: background-color 0.3s ease;
+  transition: all 0.3s ease;
 }
 /* pillars design */
 .pillar-title {
@@ -273,7 +273,7 @@ nav {
 .vision-item-button-1:hover {
   background-color: #ffffff;
   color: #5490f5;
-  transition: background-color 0.3s ease;
+  transition: all 0.3s ease;
 }
 .vision-item-button-2 {
   background-color: #09a15c;
@@ -283,7 +283,7 @@ nav {
 .vision-item-button-2:hover {
   background-color: #ffffff;
   color: #09a15c;
-  transition: background-color 0.3s ease;
+  transition: all 0.3s ease;
 }
 .vision-item-button-3 {
   background-color: #ffc239;
@@ -293,7 +293,7 @@ nav {
 .vision-item-button-3:hover {
   background-color: #ffffff;
   color: #ffc239;
-  transition: background-color 0.3s ease;
+  transition: all 0.3s ease;
 }
 /* dr yunus msg style */
 .dr-yunus-msg {
@@ -375,10 +375,9 @@ nav {
   margin-top: 20px;
 }
 .news-button:hover {
-  background-color: #ffffff;
-  color: #006a50;
-  transition: background-color 0.3s ease;
-  border: 1px solid #006a50;
+  background-color: #5490f5;
+  color: #ffffff;
+  transition: all 0.3s ease;
 }
 /* donate part design */
 .Donate {
@@ -414,7 +413,7 @@ nav {
 }
 .donate-taka:hover {
   background-color: #c6e4d6;
-  transition: background-color 0.3s ease;
+  transition: all 0.3s ease;
 }
 .donate-input {
   display: flex;
@@ -445,5 +444,79 @@ nav {
 .donate-button:hover {
   background-color: #ffffff;
   color: #006a50;
-  transition: background-color 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+/* subscribe-newsletter part design */
+.subscribe-newsletter {
+  margin-top: 80px;
+}
+
+.subscribe-content {
+  padding: 80px 265px;
+  background-color: #c6e4d6;
+  border-radius: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sub-header {
+  font-size: 40px;
+  align-items: center;
+  color: #0e0e0e;
+}
+
+.sub-des {
+  font-size: 16px;
+  color: rgba(14, 14, 14, 70%);
+  margin-top: 16px;
+  text-align: center;
+}
+.sub-button {
+  display: flex;
+  gap: 0;
+  margin-top: 24px;
+}
+.sub-input {
+  padding: 18px 403px 18px 40px;
+  border: none;
+  border-radius: 8px 0px 0px 8px;
+}
+.subscribe-button {
+  padding: 17px 34px;
+  background-color: #006a50;
+  color: #ffffff;
+  border-radius: 0px 8px 8px 0px;
+  border: none;
+  font-size: 18px;
+}
+.subscribe-button:hover {
+  background-color: #ffc239;
+  color: #006a50;
+  transition: all 0.3s ease;
+}
+.we-promise-msg {
+  font-size: 18px;
+  margin-top: 25px;
+  color: rgba(14, 14, 14, 70%);
+}
+.footer {
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.footer-head {
+  font-size: 32px;
+  color: #0e0e0e;
+}
+hr {
+  width: 1122px;
+  color: rgba(14, 14, 14, 10%);
+  margin-top: 32px;
+}
+.social-icons {
+  margin: 32px 0px;
+  display: flex;
+  gap: 47px;
 }
